@@ -1,0 +1,111 @@
+#sidebar {
+	display: none;
+}
+
+#content {
+	width: 300px;
+}
+
+#header {
+	display: none;
+}
+
+html {
+	display: table;
+	margin: 0%;
+	width: 100%;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #d0e4fe;
+}
+
+p {
+	align: center;
+	font-family: "Arial";
+	font-size: 5vw;
+}
+
+select {
+	font-size: 5vw;
+	width: 100%;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	cellpadding: 5;
+	border: 0;
+	cellspacing: 0;
+}
+
+div.alert {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FF9494;
+	width: 90%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+input[type="text"] {
+	font-size: 5vw;
+	width: 100%;
+	text-align: center;
+}
+
+input[type="date"] {
+	font-size: 5vw;
+	width: 100%;
+	text-align: center;
+}
+
+input[type="password"] {
+	font-size: 5vw;
+	width: 100%;
+	text-align: center;
+}
+
+.fsSubmitButton {
+	padding: 10px 20px 11px !important;
+	font-size: 5vw !important;
+	background-color: #000000;
+	font-weight: bold;
+	text-shadow: 1px 1px #cccccc;
+	color: #ffffff;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.fsButtonSmall {
+	padding: 5px 10px 5px !important;
+	font-size: 4vw !important;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+
+.fsSubmitButtonGreen {
+	background-color: #00aa00;
+}
+
+.fsSubmitButtonRed {
+	background-color: #dd5555;
+}
+
+.fsSubmitButtonAmber {
+	background-color: #ffbb00;
+}
+
+.fsSubmitButtonBlue {
+	background-color: #2222cc;
+}
